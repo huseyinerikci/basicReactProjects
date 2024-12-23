@@ -1,0 +1,52 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.todo-input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  text-indent: 6px;
+}
+.todo-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: gold;
+  font-weight: 700;
+  cursor: pointer;
+}
+.todo-icons {
+  font-size: 25px;
+  cursor: pointer;
+}
+.updt-input {
+  width: "380px";
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gold;
+}
