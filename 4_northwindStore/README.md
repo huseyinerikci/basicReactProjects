@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Northwind Store
+Northwind Store is a simple shopping application where you can list products by category and add or remove them from the cart. The application was developed with React's Class Component structure, and data was retrieved from JSON Server with fetch. React Router was used to navigate between pages, and notifications were added to user interactions with the Alertify library.
+##  Preview
+A preview of my northwind store project is in the gif below.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![northwindStore](https://github.com/user-attachments/assets/d40b1b81-e81c-4d46-b28b-a3f8cf436959)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Features
+* Product List: Products grouped by category are displayed on the screen.
+* Cart Management: Products can be added to and removed from the cart.
+* Table Usage: Products, category information, and cart details are visually presented using tables.
+* Notifications: When a product is added to or deleted from the cart, notifications are displayed to the user with alertify.js.
+* JSON Server Integration: Product data and other information are dynamically retrieved from an API provided with json-server.
+## Technologies
+* React: The application was developed with React's Class Component structure.
+* React Router: Navigation between pages is provided with React Router.
+* Bootstrap & Reactstrap: Bootstrap and Reactstrap libraries were used for page layout.
+* Alertify: Alertify library was used to notify the user when the product was added to the cart or deleted.
+* JSON Server: JSON Server API was used to provide real-time data.
