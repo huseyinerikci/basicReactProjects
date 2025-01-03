@@ -8,3 +8,5 @@
 4- Northwind Store Project
 
 5- City Tours Project
+
+6- React & Redux Project
