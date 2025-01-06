@@ -10,3 +10,5 @@
 5- City Tours Project
 
 6- React & Redux Project
+
+7- Redux Store Project
