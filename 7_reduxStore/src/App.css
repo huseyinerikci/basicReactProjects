@@ -1,0 +1,33 @@
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 50px;
+  border: none;
+  padding: 5px 0;
+  border-radius: 5px;
+  background: rgb(141, 63, 8);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.btn:hover {
+  background: rgb(187, 81, 5);
+}
