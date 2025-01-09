@@ -1,0 +1,91 @@
+.currency-container {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-top: 87px;
+}
+.currency-converter {
+  background-color: #0b0d10;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+}
+.currency-converter h3 {
+  margin-bottom: 20px;
+}
+.converter-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #66fcf1;
+  border-radius: 5px;
+}
+.converter-coin {
+  display: flex;
+  align-items: center;
+}
+.converter-coin p {
+  text-transform: uppercase;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.icon-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.converter-coin p {
+  color: white;
+  margin: 0;
+}
+.input-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.amount-input {
+  width: 100%;
+  padding: 10px;
+  justify-items: end;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  color: white;
+  font-size: 18px;
+}
+.amount-input::-webkit-inner-spin-button,
+.amount-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.conversion-rate {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #66fcf1;
+}
+.conversion-rate span {
+  text-transform: uppercase;
+}
+.converter-icon {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  color: #66fcf1;
+}
+.converter-icon svg {
+  transform: scale(3);
+}
+@media screen and (max-width: 1024px) {
+  .currency-container {
+    margin-top: 0;
+  }
+}

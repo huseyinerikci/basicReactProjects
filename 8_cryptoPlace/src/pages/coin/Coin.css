@@ -1,0 +1,15 @@
+.coin-container {
+  display: flex;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #66fcf1;
+  font-size: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .coin-container {
+    flex-direction: column;
+  }
+}
