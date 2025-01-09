@@ -12,3 +12,5 @@
 6- React & Redux Project
 
 7- Redux Store Project
+
+8- Crypto Place Project
