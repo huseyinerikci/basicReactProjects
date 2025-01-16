@@ -14,3 +14,5 @@
 7- Redux Store Project
 
 8- Crypto Place Project
+
+9- Redux Toolkit Crud & Counter Project
