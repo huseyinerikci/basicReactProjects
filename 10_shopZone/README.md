@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# ShopZone Project
+ShopZone is an e-commerce application built with ReactJS, Redux Toolkit, Tailwind CSS and other modern technologies. This project was developed to learn Redux and Redux Toolkit topics. Users can view products, filter products by categories, sort them by price and add them to their carts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Preview
+A preview of my shopeZone project is in the gif below.
+![shopzone](https://github.com/user-attachments/assets/5224b31a-5142-4313-ac5f-a674c38b20d3)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+* Data Fetching: Data is pulled from Fakestoreapi, products are filtered by categories and rendered to the screen.
+* Product Sorting: Products can be sorted by price information.
+* Pagination: Data from the React-Pagination library is displayed on the pages and users can navigate with the forward/back buttons.
+* Product Detail: Users can access detailed information by clicking on any product.
+* Cart Management: Users can add products to the cart, view the cart and remove products from the cart. The total price in the cart is also shown.
+* Slider: Some products are shown as sliders on the Home page with the React-Slick library.
+* Page Transitions: Transitions between pages are provided with React Router DOM.
+* State Management: Global state management is done with Redux and Redux Toolkit.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies
+* ReactJS: User interface and component management.
+* Redux Toolkit: Global state management.
+* React Router DOM: Page transitions and redirects.
+* Tailwind CSS: CSS framework for fast and responsive design.
+* React Slick: Library used for Slider component.
+* React Pagination: Used for pagination operations.
+* FakestoreAPI: API used to provide product data.
