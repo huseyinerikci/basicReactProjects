@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss/preflight";
+
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.paginate {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.paginate li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.paginate li:hover {
+  background-color: gray;
+}
+/* LOADER */
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgb(0, 0, 0, 0.11);
+  border-radius: 50%;
+  border-top-color: rgb(235, 169, 47);
+  border-left-color: rgb(43, 145, 87);
+  border-right-color: rgb(20, 102, 226);
+  border-bottom-color: rgb(224, 71, 71);
+  animation: loader1776 2s linear infinite;
+}
+
+@keyframes loader1776 {
+  to {
+    transform: rotate(360deg);
+  }
+}
