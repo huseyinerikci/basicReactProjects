@@ -1,54 +1,23 @@
-# React + TypeScript + Vite
+# Todo Application
+This project is a simple Todo application developed using React, TypeScript, Redux Toolkit and CSS. The aim of the project is to learn TypeScript with React and Redux Toolkit and understand how to use it practically.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Preview
+A preview of my typescript todo project is in the gif below.
 
-Currently, two official plugins are available:
+![typescript-todo](https://github.com/user-attachments/assets/5bbd7511-b8d2-4fe9-8c9d-77a75919d11c)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+* Add Todo: User can add new todos.
+* Delete Todo: User can delete existing todos.
+* Update Todo: User can update the content of existing todos.
+* State Management: Application state is managed with Redux Toolkit.
+* TypeScript: TypeScript is used for type checking.
+* React Icons: React Icons library is used for icons in the user interface.
+* Styling with CSS: A simple CSS file is used to style the project.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Technologies
+* React: For user interface.
+* TypeScript: To provide static type checking
+* Redux Toolkit: To manage application state.
+* React Icons: To use icons in the application.
+* CSS: For styling.
