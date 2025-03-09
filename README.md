@@ -20,3 +20,5 @@
 10- ShopZone Project
 
 11- Firebase ToDo Project
+
+11- TypeScript ToDo Project
