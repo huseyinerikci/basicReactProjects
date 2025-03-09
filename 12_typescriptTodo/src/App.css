@@ -6,6 +6,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: rgba(0, 0, 0, 0.844);
+}
+.todo-app {
+  margin: 40px auto;
+  max-height: 650px;
+  text-align: center;
+  background: #3ee6f5b4;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-y: auto;
 }
 .todo-create {
   width: 500px;
@@ -17,6 +27,9 @@ body {
 }
 .todo-input {
   width: 100%;
+  padding: 10px 0;
+  text-indent: 10px;
+  border-radius: 5px;
   border: none;
   border-bottom: 1px solid lightgrey;
   outline: none;
@@ -36,8 +49,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid lightgrey;
-  padding: 16px;
+  border: 1px solid gold;
+
+  padding: 10px 5px;
   margin-top: 25px;
   border-radius: 5px;
 }
@@ -47,4 +61,12 @@ body {
   gap: 15px;
   font-size: 22px;
   cursor: pointer;
+}
+
+.edit-todo {
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  background-color: transparent;
 }

@@ -1,10 +1,11 @@
 import TodoCreate from "./components/TodoCreate";
-import "./App.css";
 import TodoList from "./components/TodoList";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="todo-app">
+      <h1 className="title">To Do App</h1>
       <TodoCreate />
       <TodoList />
     </div>
